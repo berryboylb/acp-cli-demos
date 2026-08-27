@@ -36,36 +36,29 @@
       "name": "Landing Page",
       "price": "$1 USDC",
       "minWindow": "1 hour",
-      "description": "Generates a fully responsive landing page based on user instructions or uploaded UI mockups. No credentials required.",
-      "deliverables": ["Vercel Preview URL", "GitHub Repo URL"]
-    },
-    {
-      "name": "frontendapp",
-      "price": "$1 USDC",
-      "minWindow": "1 hour",
-      "description": "Deploys a complete frontend application framework securely.",
-      "deliverables": ["Vercel Preview URL", "GitHub Repo URL"]
+      "description": "Full landing page build and deployment for your product",
+      "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Landing Page Spec"]
     },
     {
       "name": "Full Stack App",
       "price": "$1 USDC",
-      "minWindow": "1 hour",
-      "description": "Deploys a full-stack NextJS application end-to-end, handling frontend, backend, and DB.",
+      "minWindow": "4 hours",
+      "description": "Full stack application with API and frontend. Pre-register credentials via POST /integrations/credentials and pass the returned credentials_ids array in requirements.",
       "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Build Verified Status"]
     },
     {
       "name": "API Integration",
       "price": "$1 USDC",
-      "minWindow": "1 hour",
-      "description": "Integrates complex 3rd-party APIs (Stripe, Supabase, Resend) securely vaulting credentials.",
-      "deliverables": ["GitHub PR/Branch", "Verified Build"]
+      "minWindow": "2 hours",
+      "description": "Add third-party API integrations (Stripe, Supabase, Resend, etc.) to an existing project.",
+      "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Build Verified Status"]
     },
     {
       "name": "Iteration",
       "price": "$1 USDC",
       "minWindow": "1 hour",
-      "description": "Executes rapid design or code iterations on an existing deployed project.",
-      "deliverables": ["Updated Vercel URL", "Commit Hash"]
+      "description": "Edit or refine an existing project's landing page, app, or integration based on written instructions and an optional reference image.",
+      "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Build Verified Status"]
     }
   ],
   "skills": [
@@ -91,6 +84,11 @@
     {
       "label": "AgentIQ Persona Soul",
       "href": "https://github.com/Virtual-Protocol/acp-cli-demos/blob/main/showcase/agentiq/soul.md",
+      "kind": "docs"
+    },
+    {
+      "label": "AgentIQ Structured Offerings JSON",
+      "href": "https://github.com/Virtual-Protocol/acp-cli-demos/blob/main/showcase/agentiq/offerings/offerings.json",
       "kind": "docs"
     }
   ],
