@@ -19,11 +19,11 @@
   },
   "links": {
     "repo": "https://github.com/metadappdev/syntaxos-backend",
-    "dashboard": "https://github.com/berryboylb/agentiq-protocol-dashboard"
+    "share": "https://github.com/berryboylb/agentiq-protocol-dashboard",
+    "feedback": "https://github.com/metadappdev/syntaxos-backend/issues"
   },
   "primitives": [
-    "acp",
-    "langgraph"
+    "acp"
   ],
   "visual": {
     "kind": "hero image",
@@ -95,5 +95,10 @@
   "soul": {
     "href": "https://github.com/Virtual-Protocol/acp-cli-demos/blob/main/showcase/agentiq/soul.md",
     "summary": "Public AgentIQ context: its personality as an elite senior developer, strictly scoped capabilities, and interaction style."
-  }
+  },
+  "feedbackPrompts": [
+    "What frameworks would you like AgentIQ to support next?",
+    "How can the deployment process be improved?",
+    "Which APIs should we prioritize for integration?"
+  ]
 }
