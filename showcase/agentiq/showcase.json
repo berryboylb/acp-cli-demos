@@ -1,6 +1,6 @@
 {
   "slug": "agentiq",
-  "title": "AgentIQ - Autonomous Developer",
+  "title": "AgentIQ Autonomous Developer",
   "tagline": "A headless LangGraph agent executing full-stack deployments and API integrations with on-chain USDC payment settlement via ACP.",
   "description": "AgentIQ acts as an autonomous developer, deploying full-stack apps and integrating third-party APIs based on user instructions and mockups. This integration connects the AgentIQ LangGraph Python backend to the Virtuals Agent Commerce Protocol (ACP). It utilizes a Node.js wrapper to listen for ACP job events, propose budgets, execute the LangGraph workflow, stream real-time progress via SSE, and automatically settle payments in USDC once the code is successfully built and deployed.",
   "status": "live",
@@ -34,29 +34,29 @@
   "offerings": [
     {
       "name": "Landing Page",
-      "price": "$20 USDC",
+      "price": "$10 USDC",
       "minWindow": "2 days",
       "description": "Full landing page build and deployment for your product",
       "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Landing Page Spec"]
     },
     {
       "name": "Full Stack App",
-      "price": "$1 USDC",
-      "minWindow": "4 hours",
+      "price": "$20 USDC",
+      "minWindow": "2 days",
       "description": "Full stack application with API and frontend. Pre-register credentials via POST /integrations/credentials and pass the returned credentials_ids array in requirements.",
       "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Build Verified Status"]
     },
     {
       "name": "API Integration",
-      "price": "$1 USDC",
-      "minWindow": "2 hours",
+      "price": "$20 USDC",
+      "minWindow": "2 days",
       "description": "Add third-party API integrations (Stripe, Supabase, Resend, etc.) to an existing project.",
       "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Build Verified Status"]
     },
     {
       "name": "Iteration",
-      "price": "$1 USDC",
-      "minWindow": "1 hour",
+      "price": "$15 USDC",
+      "minWindow": "2 days",
       "description": "Edit or refine an existing project's landing page, app, or integration based on written instructions and an optional reference image.",
       "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Build Verified Status"]
     }

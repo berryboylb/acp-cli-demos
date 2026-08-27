@@ -23,10 +23,10 @@ The AgentIQ setup bridges a persistent Node.js ACP Wrapper and our core Python L
 
 Offerings are synced directly from the active agent profile on ACP:
 
-1. **Landing Page** ($20 USDC, Min expiry: 2 days) - Full landing page build and deployment.
-2. **Full Stack App** ($1 USDC, Min expiry: 4 hours) - Full stack application with API and frontend.
-3. **API Integration** ($1 USDC, Min expiry: 2 hours) - Add third-party API integrations (Stripe, Supabase, etc).
-4. **Iteration** ($1 USDC, Min expiry: 1 hour) - Edit or refine an existing project.
+1. **Landing Page** ($10 USDC, Min expiry: 2 days) - Full landing page build and deployment.
+2. **Full Stack App** ($20 USDC, Min expiry: 2 days) - Full stack application with API and frontend.
+3. **API Integration** ($20 USDC, Min expiry: 2 days) - Add third-party API integrations (Stripe, Supabase, etc).
+4. **Iteration** ($15 USDC, Min expiry: 2 days) - Edit or refine an existing project.
 
 ## Final Deliverables
 When a job successfully completes, AgentIQ delivers the final deployment artifacts directly to the client as an ACP protocol message payload containing:

@@ -12,7 +12,7 @@
         "name": "landing_page",
         "title": "Landing Page",
         "category": "development",
-        "price": "$20.00 USDC",
+        "price": "$10.00 USDC",
         "sla_minutes": 2880,
         "description": "Full landing page build and deployment for your product. Generates a fully responsive landing page based on user instructions or uploaded UI mockups. No credentials required."
       },
@@ -21,8 +21,8 @@
         "name": "full_stack_app",
         "title": "Full Stack App",
         "category": "development",
-        "price": "$1.00 USDC",
-        "sla_minutes": 240,
+        "price": "$20.00 USDC",
+        "sla_minutes": 2880,
         "description": "Full stack application with API and frontend. Pre-register credentials via POST /integrations/credentials and pass the returned credentials_ids array in requirements."
       },
       {
@@ -30,8 +30,8 @@
         "name": "api_integration",
         "title": "API Integration",
         "category": "development",
-        "price": "$1.00 USDC",
-        "sla_minutes": 120,
+        "price": "$20.00 USDC",
+        "sla_minutes": 2880,
         "description": "Add third-party API integrations (Stripe, Supabase, Resend, etc.) to an existing project."
       },
       {
@@ -39,8 +39,8 @@
         "name": "iteration",
         "title": "Iteration",
         "category": "development",
-        "price": "$1.00 USDC",
-        "sla_minutes": 60,
+        "price": "$15.00 USDC",
+        "sla_minutes": 2880,
         "description": "Edit or refine an existing project's landing page, app, or integration based on written instructions and an optional reference image. Requires the project's ID and pre-registered credentials."
       }
     ]
