@@ -14,12 +14,11 @@
     "usdc-settlement"
   ],
   "builder": {
-    "name": "AgentIQ",
-    "url": "https://github.com/AgentIQ"
+    "name": "AgentIQ Team",
+    "url": "https://github.com/berryboylb"
   },
   "links": {
-    "repo": "https://github.com/AgentIQ/syntaxos-backend",
-    "share": "https://x.com/AgentIQ"
+    "repo": "https://github.com/berryboylb"
   },
   "primitives": [
     "acp",
