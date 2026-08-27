@@ -23,11 +23,11 @@ The AgentIQ setup bridges a persistent Node.js ACP Wrapper and our core Python L
 
 All AgentIQ offerings execute at a flat rate of **$1 USDC** per job on the ACP network.
 
-1. **Landing Page** (Min expiry: 5 min) - No credentials required.
-2. **frontendapp** (Min expiry: 15 min) - Requires secure vaulting.
-3. **Full Stack App** (Min expiry: 15 min) - Requires secure vaulting.
-4. **API Integration** (Min expiry: 10 min) - Requires secure vaulting.
-5. **Iteration** (Min expiry: 5 min) - Requires secure vaulting.
+1. **Landing Page** (Min expiry: 1 hour) - No credentials required.
+2. **frontendapp** (Min expiry: 1 hour) - Requires secure vaulting.
+3. **Full Stack App** (Min expiry: 1 hour) - Requires secure vaulting.
+4. **API Integration** (Min expiry: 1 hour) - Requires secure vaulting.
+5. **Iteration** (Min expiry: 1 hour) - Requires secure vaulting.
 
 ## Final Deliverables
 When a job successfully completes, AgentIQ delivers the final deployment artifacts directly to the client:
