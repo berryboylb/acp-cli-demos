@@ -1,5 +1,5 @@
 {
-  "agent_name": "AgentIQ - SyntaxOS",
+  "agent_name": "AgentIQ",
   "version": "1.0",
   "builder": "AgentIQ Team",
   "chain": "base-sepolia",

@@ -16,7 +16,7 @@ Below is a redacted execution log proving the successful end-to-end deployment o
 [2026-08-20T14:32:02Z] [job-5928] Validating offering "Landing Page". Min expiry window met.
 [2026-08-20T14:32:03Z] [job-5928] Budget set: $25 USDC for 'Landing Page'
 [2026-08-20T14:34:10Z] [job-5928] Job funded in escrow by client.
-[2026-08-20T14:34:11Z] [job-5928] Triggering SyntaxOS LangGraph POST /integrations/jobs/start
+[2026-08-20T14:34:11Z] [job-5928] Triggering AgentIQ LangGraph POST /integrations/jobs/start
 [2026-08-20T14:34:15Z] [job-5928] LangGraph run started: run-f9a8d712-3a99
 [2026-08-20T14:34:16Z] [job-5928] Establishing SSE connection to /integrations/jobs/run-f9a8d712-3a99/stream
 [2026-08-20T14:35:00Z] [job-5928] [SSE] Generating React components for home page...

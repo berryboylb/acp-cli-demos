@@ -1,8 +1,8 @@
 {
   "slug": "agentiq",
-  "title": "AgentIQ - SyntaxOS Autonomous Developer",
+  "title": "AgentIQ - Autonomous Developer",
   "tagline": "A headless LangGraph agent executing full-stack deployments and API integrations with on-chain USDC payment settlement via ACP.",
-  "description": "AgentIQ acts as an autonomous developer, deploying full-stack apps and integrating third-party APIs based on user instructions and mockups. This integration connects the AgentIQ SyntaxOS LangGraph Python backend to the Virtuals Agent Commerce Protocol (ACP). It utilizes a Node.js wrapper to listen for ACP job events, propose budgets, execute the LangGraph workflow, stream real-time progress via SSE, and automatically settle payments in USDC once the code is successfully built and deployed.",
+  "description": "AgentIQ acts as an autonomous developer, deploying full-stack apps and integrating third-party APIs based on user instructions and mockups. This integration connects the AgentIQ LangGraph Python backend to the Virtuals Agent Commerce Protocol (ACP). It utilizes a Node.js wrapper to listen for ACP job events, propose budgets, execute the LangGraph workflow, stream real-time progress via SSE, and automatically settle payments in USDC once the code is successfully built and deployed.",
   "status": "live",
   "topic": "developer-tools",
   "topics": [
@@ -63,11 +63,11 @@
   ],
   "skills": [
     {
-      "name": "syntaxos-integration",
-      "href": "https://github.com/Virtual-Protocol/acp-cli-demos/tree/main/showcase/agentiq/skills/syntaxos-integration",
-      "sourcePath": "showcase/agentiq/skills/syntaxos-integration",
-      "summary": "Comprehensive guide for interacting with the SyntaxOS API Integration Service, including endpoint schemas, credential vaulting, image uploads, and headless job execution.",
-      "install": "cp showcase/agentiq/skills/syntaxos-integration/SKILL.md ~/.agents/skills/syntaxos-integration/SKILL.md"
+      "name": "agentiq-integration",
+      "href": "https://github.com/Virtual-Protocol/acp-cli-demos/tree/main/showcase/agentiq/skills/agentiq-integration",
+      "sourcePath": "showcase/agentiq/skills/agentiq-integration",
+      "summary": "Comprehensive guide for interacting with the AgentIQ API Integration Service, including endpoint schemas, credential vaulting, image uploads, and headless job execution.",
+      "install": "cp showcase/agentiq/skills/agentiq-integration/SKILL.md ~/.agents/skills/agentiq-integration/SKILL.md"
     }
   ],
   "artifacts": [

@@ -1,4 +1,4 @@
-# AgentIQ - SyntaxOS Autonomous Developer
+# AgentIQ Autonomous Developer
 
 AgentIQ is a headless LangGraph agent executing full-stack deployments and API integrations, connected to the Virtuals Agent Commerce Protocol (ACP) for fully autonomous on-chain USDC payment settlement.
 
@@ -21,16 +21,15 @@ The AgentIQ setup bridges a persistent Node.js ACP Wrapper and our core Python L
 
 ## Core Offerings
 
-All AgentIQ offerings execute at a flat rate of **$1 USDC** per job on the ACP network.
+All AgentIQ offerings execute at a flat rate of **$1 USDC** per job on the ACP network. These are synced directly from the active agent profile on ACP.
 
-1. **Landing Page** (Min expiry: 1 hour) - No credentials required.
-2. **frontendapp** (Min expiry: 1 hour) - Requires secure vaulting.
-3. **Full Stack App** (Min expiry: 1 hour) - Requires secure vaulting.
-4. **API Integration** (Min expiry: 1 hour) - Requires secure vaulting.
-5. **Iteration** (Min expiry: 1 hour) - Requires secure vaulting.
+1. **Landing Page** (Min expiry: 1 hour) - Full landing page build and deployment.
+2. **Full Stack App** (Min expiry: 4 hours) - Full stack application with API and frontend.
+3. **API Integration** (Min expiry: 2 hours) - Add third-party API integrations (Stripe, Supabase, etc).
+4. **Iteration** (Min expiry: 1 hour) - Edit or refine an existing project.
 
 ## Final Deliverables
-When a job successfully completes, AgentIQ delivers the final deployment artifacts directly to the client:
+When a job successfully completes, AgentIQ delivers the final deployment artifacts directly to the client as an ACP protocol message payload containing:
 * Vercel Preview URL (`deploy_url`)
 * GitHub Repository URL (`github_url`)
 * Verified Build Status (`build_verified: true`)

@@ -1,11 +1,11 @@
 ---
-name: syntaxos-integration
-description: "Comprehensive guide for interacting with the SyntaxOS API Integration Service, including endpoint schemas, credential vaulting, image uploads, and headless job execution."
+name: AgentIQ-integration
+description: "Comprehensive guide for interacting with the AgentIQ API Integration Service, including endpoint schemas, credential vaulting, image uploads, and headless job execution."
 ---
 
-# SyntaxOS Integration Service Skill
+# AgentIQ Integration Service Skill
 
-This skill teaches agents how to programmatically execute headless fullstack deployments, UI generations, and API integrations using the SyntaxOS backend.
+This skill teaches agents how to programmatically execute headless fullstack deployments, UI generations, and API integrations using the AgentIQ backend.
 
 ## Authentication
 All endpoints (except `/credentials` and `/credentials/predict`) require authentication via the `X-Integration-Key` header or `Authorization: Bearer <token>` header. The token must match `INTEGRATION_API_KEY` in the environment.
