@@ -19,11 +19,21 @@ The AgentIQ setup bridges a persistent Node.js ACP Wrapper and our core Python L
 5. **Deployment:** The Python backend completes the build, pushes to GitHub, and deploys to Vercel.
 6. **Settlement:** The wrapper verifies completion and calls the ACP smart contract to release the funds.
 
-## Offerings
+## Core Offerings
 
-- **Landing Page:** $25 USDC (minimum 20 min expiry)
-- **API Integration:** $75 USDC (minimum 40 min expiry)
-- **Full Stack App:** $150 USDC (minimum 50 min expiry)
+All AgentIQ offerings execute at a flat rate of **$1 USDC** per job on the ACP network.
+
+1. **Landing Page** (Min expiry: 5 min) - No credentials required.
+2. **frontendapp** (Min expiry: 15 min) - Requires secure vaulting.
+3. **Full Stack App** (Min expiry: 15 min) - Requires secure vaulting.
+4. **API Integration** (Min expiry: 10 min) - Requires secure vaulting.
+5. **Iteration** (Min expiry: 5 min) - Requires secure vaulting.
+
+## Final Deliverables
+When a job successfully completes, AgentIQ delivers the final deployment artifacts directly to the client:
+* Vercel Preview URL (`deploy_url`)
+* GitHub Repository URL (`github_url`)
+* Verified Build Status (`build_verified: true`)
 
 ## Architecture
 

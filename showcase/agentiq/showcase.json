@@ -34,21 +34,38 @@
   "offerings": [
     {
       "name": "Landing Page",
-      "price": "$25 USDC",
-      "minWindow": "20 min",
-      "description": "Generates a fully responsive landing page based on user instructions or uploaded UI mockups."
+      "price": "$1 USDC",
+      "minWindow": "5 min",
+      "description": "Generates a fully responsive landing page based on user instructions or uploaded UI mockups. No credentials required.",
+      "deliverables": ["Vercel Preview URL", "GitHub Repo URL"]
     },
     {
-      "name": "API Integration",
-      "price": "$75 USDC",
-      "minWindow": "40 min",
-      "description": "Integrates complex 3rd-party APIs (Stripe, Supabase, Resend) securely vaulting credentials."
+      "name": "frontendapp",
+      "price": "$1 USDC",
+      "minWindow": "15 min",
+      "description": "Deploys a complete frontend application framework securely.",
+      "deliverables": ["Vercel Preview URL", "GitHub Repo URL"]
     },
     {
       "name": "Full Stack App",
-      "price": "$150 USDC",
-      "minWindow": "50 min",
-      "description": "Deploys a full-stack NextJS application end-to-end, handling frontend, backend, and DB."
+      "price": "$1 USDC",
+      "minWindow": "15 min",
+      "description": "Deploys a full-stack NextJS application end-to-end, handling frontend, backend, and DB.",
+      "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Build Verified Status"]
+    },
+    {
+      "name": "API Integration",
+      "price": "$1 USDC",
+      "minWindow": "10 min",
+      "description": "Integrates complex 3rd-party APIs (Stripe, Supabase, Resend) securely vaulting credentials.",
+      "deliverables": ["GitHub PR/Branch", "Verified Build"]
+    },
+    {
+      "name": "Iteration",
+      "price": "$1 USDC",
+      "minWindow": "5 min",
+      "description": "Executes rapid design or code iterations on an existing deployed project.",
+      "deliverables": ["Updated Vercel URL", "Commit Hash"]
     }
   ],
   "skills": [
