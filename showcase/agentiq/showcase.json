@@ -34,8 +34,8 @@
   "offerings": [
     {
       "name": "Landing Page",
-      "price": "$1 USDC",
-      "minWindow": "1 hour",
+      "price": "$20 USDC",
+      "minWindow": "2 days",
       "description": "Full landing page build and deployment for your product",
       "deliverables": ["Vercel Preview URL", "GitHub Repo URL", "Landing Page Spec"]
     },

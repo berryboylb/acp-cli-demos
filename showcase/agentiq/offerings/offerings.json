@@ -12,8 +12,8 @@
         "name": "landing_page",
         "title": "Landing Page",
         "category": "development",
-        "price": "$1.00 USDC",
-        "sla_minutes": 60,
+        "price": "$20.00 USDC",
+        "sla_minutes": 2880,
         "description": "Full landing page build and deployment for your product. Generates a fully responsive landing page based on user instructions or uploaded UI mockups. No credentials required."
       },
       {
