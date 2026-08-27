@@ -18,7 +18,8 @@
     "url": "https://github.com/berryboylb"
   },
   "links": {
-    "repo": "https://github.com/berryboylb"
+    "repo": "https://github.com/metadappdev/syntaxos-backend",
+    "dashboard": "https://github.com/berryboylb/agentiq-protocol-dashboard"
   },
   "primitives": [
     "acp",
